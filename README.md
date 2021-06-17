@@ -7,6 +7,9 @@ Methods:
 - Hierarchical Clustering with Cosine Similarity
 - Hierarchical Clustering with Euclidean Distance using Word2Vec word embedding model
 
+Final Results in terms of intent classification metrics:  
+- 
+
 Chatbot service used to test intents: AWS Lex
 
 For detailed overview, please see Intent Architecure Presentation video and powerpoint presentation.
