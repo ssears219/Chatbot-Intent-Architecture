@@ -8,7 +8,7 @@ Methods:
 - Hierarchical Clustering with Euclidean Distance using Word2Vec word embedding model
 
 Final Results in terms of intent classification metrics:  
-- 
+- Results_23Clusters_Euclidean.xlsx
 
 Chatbot service used to test intents: AWS Lex
 
