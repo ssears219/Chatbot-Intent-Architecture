@@ -1,16 +1,32 @@
-# Chatbot-Intent-Architecture
-Creating a chatbot intent architecture using clustering algorithm.
+# Chatbot Intent Architecure
 
-Dataset used: https://blog.bitext.com/free-customer-support-dataset
+Creating an intent architecture using clustering
 
-Methods:
-- Hierarchical Clustering with Cosine Similarity
-- Hierarchical Clustering with Euclidean Distance using Word2Vec word embedding model
+## Description
 
-Final Results in terms of intent classification metrics:  
-- Results_23Clusters_Euclidean.xlsx
+Given a dataset of user utterances, how do we determine intents, or classifications, we should train a chatbot on? We could manually label the utterances one-by-one with their respective intent, but that could take too much time. We could filter the utterances by keywords, but different words may mean the same thing – or the same words may mean different things. We could deploy intents iteratively, but we would have a high chance of mistaking untrained utterances as trained ones. This project explores a solution; cluster the entire dataset of user utterances based on their similarity and use the resulting clusters as the intents in the bot.
 
-Chatbot service used to test intents: AWS Lex
+## Data
 
-For detailed overview, please see Intent Architecure Presentation video and powerpoint presentation.
-Video: https://bellevueuniversity-my.sharepoint.com/:v:/g/personal/spsears_my365_bellevue_edu/EaenpwkCqN5PlceQQizEuAoBOU3pcA8SICumRf-IgP_6nw?e=O6jW41
+[Bitext Free Dataset](https://blog.bitext.com/free-customer-support-dataset)
+
+## Contents
+
+* bitext_free_dataset.csv - starting data from Bitext
+* Training Dataset.xlsx - data used for training the AWS Lex bot
+
+* Hierarchical Clustering and Cosine Similarity.ipynb - Initial attempt at cluserting
+* Clustering with Word2Vec word embedding.ipynb - Final clustering method notebook
+
+* Chatbot Intent Architecture.docx - Writeup
+* Chatbot Intent Architecture.pptx - [Presentation Video](https://bellevueuniversity-my.sharepoint.com/:v:/g/personal/spsears_my365_bellevue_edu/EaenpwkCqN5PlceQQizEuAoBOU3pcA8SICumRf-IgP_6nw?e=O6jW41)
+
+## Authors
+
+Samuel Sears @ssears219
+
+## Acknowledgments
+
+* [Bitext](https://www.bitext.com/)
+* [Blog Post on Sentence Similarity](https://towardsdatascience.com/cutting-edge-semantic-search-and-sentence-similarity-53380328c655)
+* [Blog Post on Text Preprocessing](https://medium.com/@datamonsters/text-preprocessing-in-python-steps-tools-and-examples-bf025f872908)
