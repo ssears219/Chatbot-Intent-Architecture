@@ -20,6 +20,7 @@ Given a dataset of user utterances, how do we determine intents, or classificati
 
 * Chatbot Intent Architecture.docx - Writeup
 * Chatbot Intent Architecture.pptx - [Presentation Video](https://bellevueuniversity-my.sharepoint.com/:v:/g/personal/spsears_my365_bellevue_edu/EaenpwkCqN5PlceQQizEuAoBOU3pcA8SICumRf-IgP_6nw?e=O6jW41)
+* Results.xlsx - Performance Metrics from testing
 
 ## Author
 
