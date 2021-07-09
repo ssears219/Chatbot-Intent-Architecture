@@ -2,6 +2,8 @@
 
 Creating an intent architecture using clustering
 
+![Chatbot](https://cdn.pixabay.com/photo/2019/03/21/15/51/chatbot-4071274_960_720.jpg?raw=true)
+
 ## Description
 
 Given a dataset of user utterances, how do we determine intents, or classifications, we should train a chatbot on? We could manually label the utterances one-by-one with their respective intent, but that could take too much time. We could filter the utterances by keywords, but different words may mean the same thing – or the same words may mean different things. We could deploy intents iteratively, but we would have a high chance of mistaking untrained utterances as trained ones. This project explores a solution; cluster the entire dataset of user utterances based on their similarity and use the resulting clusters as the intents in the bot.
